@@ -1,0 +1,11 @@
+<h1>register</h1>
+<%= form_tag("fake/create", method: "get") do %>
+Username :<%= text_field_tag(:username) %>
+<br>
+Password :<%= password_field_tag(:password) %>
+<br>
+Email :<%= text_field_tag(:email) %>
+<%= submit_tag(:create) %>
+
+<% end%>
+

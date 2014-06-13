@@ -1,0 +1,6 @@
+<h1>Fake#show</h1>
+<p><% @fakeshow.each do |fakie| %>
+
+<h1>Username: <%=fakie.username %></h1> , Password : <h1><%=fakie.password %></h1>, Email id :<h1><%=fakie.email %></h1>
+
+</p>
