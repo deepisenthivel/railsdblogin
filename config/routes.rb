@@ -3,8 +3,15 @@ Rails.application.routes.draw do
 
   get 'fake/create'
 
-  get 'fake/show'
+  get 'fake/show' 
+  get 'fake/check'
 
+post 'fake/index'
+
+  post 'fake/create'
+
+  post 'fake/show'
+  post 'fake/check'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

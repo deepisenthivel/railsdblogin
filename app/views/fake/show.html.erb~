@@ -1,6 +1,14 @@
-<h1>Fake#show</h1>
+You are now logged in...
+<br>
+<h1>Fake#show : These are the values in the database</h1>
 <p><% @fakeshow.each do |fakie| %>
 
-<h1>Username: <%=fakie.username %></h1> , Password : <h1><%=fakie.password %></h1>, Email id :<h1><%=fakie.email %></h1>
+<strong>Username: <%=fakie.username %></strong> , Password : <strong><%=fakie.password %></strong>, Email id :<strong><%=fakie.email %></strong>
+</br>
 
+<% end %>
+You are now logged in...
+
+<br>
+<a href="index">click here to log out </a>
 </p>
